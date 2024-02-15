@@ -1,0 +1,31 @@
+[workspace]
+exclude = [
+    "examples/cross_service",
+    "examples/webassembly",
+    "examples/test-utils",
+    "examples/lambda",
+    "examples/examples",
+    "tests/webassembly",
+    "tests/no-default-features"
+]
+members = [
+    "sdk/aws-config",
+    "sdk/aws-credential-types",
+    "sdk/aws-runtime",
+    "sdk/aws-sigv4",
+    "sdk/aws-smithy-async",
+    "sdk/aws-smithy-eventstream",
+    "sdk/aws-smithy-http",
+    "sdk/aws-smithy-json",
+    "sdk/aws-smithy-runtime",
+    "sdk/aws-smithy-protocol-test",
+    "sdk/aws-smithy-runtime-api",
+    "sdk/aws-smithy-types",
+    "sdk/aws-smithy-query",
+    "sdk/aws-smithy-xml",
+    "sdk/aws-types",
+    "sdk/sso",
+    "sdk/lambda",
+    "sdk/ssooidc",
+    "sdk/sts",
+]
