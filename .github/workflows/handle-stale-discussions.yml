@@ -1,7 +1,5 @@
 name: HandleStaleDiscussions
 on:
-  schedule:
-    - cron: '0 */4 * * *'
   discussion_comment:
     types: [created]
 
