@@ -1,7 +1,5 @@
 name: Security audit
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
 env:
   rust_version: nightly-2023-07-31
